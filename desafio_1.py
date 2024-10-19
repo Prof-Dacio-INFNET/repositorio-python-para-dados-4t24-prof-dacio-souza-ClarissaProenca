@@ -4,6 +4,5 @@ matriz = [[1, 2, 3],
 
 for linha, _ in enumerate(matriz):
     for coluna, _ in enumerate(matriz[linha]):
-        matriz[linha][coluna] = matriz[coluna][linha]
-
-print(matriz)
+        print(matriz[coluna][linha], end=" ")
+    print("")
